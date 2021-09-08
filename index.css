@@ -4,6 +4,25 @@
     box-sizing: border-box;
 }
 .text{
-    margin-top: 240px;
+    margin-top: 190px;
     margin-left: 150px;
+}
+h1{
+    font-size: 55px;
+    color: #1877f2;
+    line-height: 1.34;
+    letter-spacing: normal;
+}
+h2{
+    font-weight: normal;
+    line-height: 32px;
+    width: auto;
+    font-size: 26px;
+    color: #333;
+    letter-spacing: normal;
+}
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: #f0f2f5;
+    color: #1c1e21
 }
