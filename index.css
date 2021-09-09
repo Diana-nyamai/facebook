@@ -10,7 +10,6 @@ body{
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 100vh;
 }
 .container{
     display: flex;
@@ -158,10 +157,10 @@ footer{
   padding: 0 170px;
 
 }
-
+footer ul li{
+    display: inline;
+}
 .footer-parent ul{
-    display: flex;
-    flex-flow: row wrap;
     padding: 15px 0;
    
 }
@@ -175,8 +174,6 @@ footer{
 
 .footer-child ul li{
     display: inline;
-    align-items: flex-end;
-    justify-content: space-around;
 }
 
 .footer-child li{
@@ -193,4 +190,9 @@ footer{
     margin: 20px 0;
     font-weight: 500;
     padding: 20px 0;
+}
+@media all and (max-width: 1052px){
+    footer{
+        padding: 0 30px;
+    }
 }
