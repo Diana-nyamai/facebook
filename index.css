@@ -44,6 +44,7 @@ body{
 }
 .right{
     width: 400px;
+    align-items: flex-start;
     
 }
 form{
@@ -129,7 +130,10 @@ form input{
         text-align: center;
         font-size: 24px;
     }
-    .left, .right{
+    .left{
+        margin:40px 0 0 0 ;
+    }
+    .right{
         margin: 40px 0;
         
     }
@@ -138,5 +142,13 @@ form input{
         align-items:center ;
     }
     
+}
+@media all and (max-width: 400px){
+    .left{
+        width: 300px;
+    }
+    .right, form{
+        width: 300px;
+    }
 }
 
