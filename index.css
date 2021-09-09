@@ -155,19 +155,42 @@ form input{
 /* footer styling */
 footer{
   background: #fff;
-  padding: 0 50px;
+  padding: 0 170px;
+
 }
-footer ul{
+
+.footer-parent ul{
     display: flex;
     flex-flow: row wrap;
-    justify-content: center;
     padding: 15px 0;
    
 }
-footer li{
+.footer-parent li{
     list-style-type: none;
     padding: 5px;
     font-size: 12px;
     color: #737373;
-    border-bottom: 1px solid #dadde1;
+    /* border-bottom: 1px solid #dadde1; */
+}
+
+.footer-child ul li{
+    display: inline;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+
+.footer-child li{
+    list-style-type: none;
+    padding: 5px;
+    font-size: 12px;
+    color: #737373;
+    align-items: flex-start;
+}
+
+.copyright{
+    font-size: 12px;
+    color: #737373;
+    margin: 20px 0;
+    font-weight: 500;
+    padding: 20px 0;
 }
