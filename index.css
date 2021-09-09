@@ -3,12 +3,20 @@
     margin: 0;
     box-sizing: border-box;
 }
+.main{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    padding: 0;
+    margin: 20px;
+}
 .text{
-    margin-top: 190px;
+    margin-top: 180px;
+    margin-left: 150px;
     align-items: center;
     justify-content: space-around;
-    padding: 5px;
-    
+    padding: 5px;  
+    border: 1px solid black;
 }
 h1{
     font-size: 55px;
@@ -31,29 +39,37 @@ body{
     background: #f0f2f5;
     color: #1c1e21
 }
-.main{
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
-}
+
 .container{
     background: #ffff;
     width: 396px;
+    margin-left: 150px;
     padding: 20px 0 28px;
     border: none;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
-    margin: 190px 0 0;
+    margin: 140px 0 0;
 }
 @media all and (max-width: 800px){
+    .main{
+        padding: 40px;
+    }
     .container{
         margin: 40px 0 0;
     }
     .text{
-        text-align: center;
+        margin: 0;
     }
     .h2{
         font-size: 24px;
     }
     
+}
+@media only screen and (max-width: 1030px) and (min-width: 800px){
+    .container{
+        margin: 40px 0 0;
+    }
+    .text{
+    margin: 0;
+    }
 }
