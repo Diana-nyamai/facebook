@@ -116,15 +116,26 @@ form input{
 }
 @media all and (max-width: 950px){
     .container{
-        flex-direction: column;
+        flex-flow: column;
+        width: 100%;
     }
     .left{
         width: 400px;
         align-items: center;
         align-content: center;
     }
-    .right{
+    .left, .right{
         margin: 40px 0;
+        
     }
+    .right, form{
+        width: 350px;
+        align-items:center ;
+    }
+    .left h2{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
 }
 
