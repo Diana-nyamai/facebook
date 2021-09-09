@@ -161,7 +161,7 @@ footer{
   height: auto;
   
 }
-footer ul li{
+footer ul li {
     display: inline;
 }
 .footer-parent ul{
@@ -172,6 +172,10 @@ footer ul li{
     list-style-type: none;
     padding: 5px;
     font-size: 12px;
+    color: #737373;
+}
+.footer-parent a{
+    text-decoration: none;
     color: #737373;
 }
 .plus{
@@ -191,6 +195,10 @@ footer ul li{
     font-size: 12px;
     color: #737373;
     align-items: flex-start;
+}
+.footer-child a{
+    text-decoration: none;
+    color: #737373;
 }
 
 .copyright{
