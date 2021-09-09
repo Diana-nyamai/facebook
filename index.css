@@ -132,10 +132,6 @@ form input{
         width: 350px;
         align-items:center ;
     }
-    .left h2{
-        display: flex;
-        flex-wrap: wrap;
-    }
     
 }
 
