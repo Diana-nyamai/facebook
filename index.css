@@ -219,3 +219,13 @@ footer ul li {
         padding: 0 30px;
     }
 }
+@media all and (min-width: 1053px){
+    footer{
+        padding: 0 350px;
+    }
+}
+@media all and (max-width: 360px){
+    footer{
+        position: relative;
+    }
+}
