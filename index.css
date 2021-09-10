@@ -10,6 +10,7 @@ body{
     justify-content: center;
     align-items: center;
     width: 100%;
+    height: 100%;
 }
 .container{
     display: flex;
@@ -18,7 +19,7 @@ body{
     width: 100%;
     height: 100%;
     overflow-x: hidden;
-    min-height: 80vh;
+    min-height: 100vh;
 }
 .left, .right, form{
     display: flex;
@@ -162,11 +163,11 @@ form input{
 footer{
   background: #fff;
   padding: 0 170px;
+  width: 100%;
   position: absolute;
-  min-height: 30%;
-  bottom: 0;
-  
+  height: auto;
 }
+
 footer ul li {
     display: inline;
 }
@@ -219,13 +220,13 @@ footer ul li {
         padding: 0 30px;
     }
 }
-@media all and (min-width: 1053px){
-    footer{
-        padding: 0 350px;
+@media all and (min-width: 1400px){
+    .container{
+        min-height: 70vh;
     }
-}
-@media all and (max-width: 360px){
     footer{
-        position: relative;
+        bottom: 0;
+        padding: 0 300px;
+        min-height: 30%;
     }
 }
